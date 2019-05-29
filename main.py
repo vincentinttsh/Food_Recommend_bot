@@ -22,7 +22,8 @@ logger = logging.getLogger(__name__)
 
 # Initial Flask app
 app = Flask(__name__)
-
+# use your way to give token, this is fake
+TELEGRAM_BOT_TOKEN = '606248605:AAGv_TOJdNNMc_v3toHK_X6M-dev_1tG-JA'
 # Initial bot by Telegram access token
 bot = telegram.Bot(token=(TELEGRAM_BOT_TOKEN))
 
