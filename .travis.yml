@@ -6,4 +6,4 @@ install:
   - pipenv install
 
 script:
-  - pipenv main.py run
+  - pipenv run python3 main.py
