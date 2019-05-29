@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.6.7"
+
+install:
+  - pipenv install
+
+script:
+  - pipenv main.py run
