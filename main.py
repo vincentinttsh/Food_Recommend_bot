@@ -24,7 +24,8 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Initial bot by Telegram access token
-bot = telegram.Bot(token=(config['TELEGRAM']['ACCESS_TOKEN']))
+TELEGRAM_BOT_TOKEN = config['TELEGRAM']['ACCESS_TOKEN']
+bot = telegram.Bot(token=(TELEGRAM_BOT_TOKEN))
 
 #Initial food_database 
 food_database = FOOD_DATABASE()
