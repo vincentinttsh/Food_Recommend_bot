@@ -7,10 +7,11 @@ verify_ssl = true
 pylint = "*"
 
 [packages]
+urllib3 = "1.26.5"
 python-telegram-bot = "==11.1.0"
 flask = "==1.1.1"
 gunicorn = "==19.9.0"
 requests = "==2.22.0"
 
 [requires]
-python_version = "3.6"
+python_version = "3.8"
